@@ -41,10 +41,10 @@ function randomMove()
   local screen = win:screen()
   local max = screen:frame()
 
-  f.x = max.x + max.w * 0.5 * math.random()
-  f.y = max.y + max.h * 0.5 * math.random()
-  f.w = max.w * 0.5
-  f.h = max.h * 0.5
+  f.x = max.x + max.w * 0.4 * math.random()
+  f.y = max.y + max.h * 0.4 * math.random()
+  f.w = max.w * 0.6
+  f.h = max.h * 0.6
   win:setFrame(f)
 end
 
